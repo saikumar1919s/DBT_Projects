@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: SQL_DBT_SCHEMA
+    database: my_new_project
+    schema: SQL_DBT_SCHEMA
+    tables:
+      - name: customers
