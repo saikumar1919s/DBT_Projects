@@ -1,0 +1,1 @@
+select * from {{source('SQL_DBT_SCHEMA','customers')}}
